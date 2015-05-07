@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=row\ col
+comment0.target=RouteCipher(int,\ int)
+comment1.params=message
+comment1.target=java.lang.String[][]\ fillAndGetLetterBlock(java.lang.String)
+comment1.text=\n\ Used\ for\ testing.\n\ @param\ message\ the\ string\ to\ send\ to\ fillBlock\n\ @return\ letterBlock;\n
+comment2.params=str
+comment2.target=void\ fillBlock(java.lang.String)
+comment2.text=\n\ Places\ a\ string\ into\ letterBlock\ in\ row-major\ order.\ \n\ @param\ str\ the\ string\ to\ be\ processed\n\ Postcondition\:\n\ \ \ \ \ if\ str.length()\ <\ numRows\ *\ numCols,\ "A"\ is\ placed\ in\ each\ unfilled\ cell\n\ \ \ \ \ if\ str.length()\ >\ numRows\ *\ numCols,\ trailing\ characters\ are\ ignored\n
+comment3.params=
+comment3.target=java.lang.String\ encryptBlock()
+comment3.text=\ Extracts\ encrypted\ string\ from\ letterBlock\ in\ column-major\ order.\n\ Precondition\:\ letterBlock\ has\ been\ filled\n\ @return\ the\ encrypted\ string\ from\ letterBlock\n
+comment4.params=message
+comment4.target=java.lang.String\ encryptMessage(java.lang.String)
+comment4.text=\ Encrypts\ a\ message.\n\ @param\ message\ the\ string\ to\ be\ encrypted\n\ @return\ the\ encrypted\ message;\n\ \ \ \ \ \ \ \ \ if\ message\ is\ the\ empty\ string,\ returns\ the\ empty\ string\ \n
+numComments=5
